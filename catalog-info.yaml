@@ -1,0 +1,13 @@
+metadata:
+  labels:
+    reusable: "true"
+    division: "enabling functions"
+    platform: "eep"
+  links:
+    - url: https://example.com/docs
+      title: Documentation
+spec:
+  lifecycle: production
+  owner: group:default/<your-team>
+  definition:
+    $text: ./openapi.yaml   # or existing definition
